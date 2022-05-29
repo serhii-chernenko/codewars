@@ -64,5 +64,5 @@ const haystack_3 = [
 ];
 
 findNeedle(haystack_1); /*?*/ // found the needle at position 3
-// findNeedle(haystack_2); /*?*/ // found the needle at position 5
-// findNeedle(haystack_3); /*?*/ // found the needle at position 30
+findNeedle(haystack_2); /*?*/ // found the needle at position 5
+findNeedle(haystack_3); /*?*/ // found the needle at position 30
