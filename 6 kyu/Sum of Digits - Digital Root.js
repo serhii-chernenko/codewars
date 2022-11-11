@@ -3,11 +3,7 @@
 function digital_root(n) {
     const result = n.toString().split('').reduce((acc, val) => acc + parseFloat(val), 0);
 
-    if (Math.abs(result) <= 9) {
-        return n.toString().split('').reduce((acc, val) => acc + parseFloat(val), 0);
-    }
-
-    return digital_root(result);
+    return Math.abs(result) <= 9 ? result : digital_root(result);
 }
 
 console.log(digital_root(16)) // 7
